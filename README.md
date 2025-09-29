@@ -1,6 +1,3 @@
-Parfait ! Voici le README complet pour le projet **Mail**, prêt à être copié dans un fichier `README.md` :
-
-```markdown
 # 📧 Mail - Client de messagerie web
 
 Projet développé dans le cadre du cours **CS50 Web Programming with Python and JavaScript (CS50W)**.  
