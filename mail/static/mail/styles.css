@@ -1,0 +1,91 @@
+textarea {
+    min-height: 400px;
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
+  background-color: #f1f5f9;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: #374151;
+  line-height: 1.6;
+}
+
+.container {
+  background: white;
+  margin: 2rem auto;
+  max-width: 1200px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  min-height: calc(100vh - 4rem);
+}
+
+h2, h3 {
+  color: #1f2937;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem 0 1rem;
+  background: linear-gradient(135deg, #667eea, #6c21cf);
+  color: white;
+  margin: 0 0 2rem 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #667eea;
+  border-bottom: 3px solid #667eea;
+  padding-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.email-item {
+  background: white;
+  border: none;
+  border-left: 4px solid #667eea;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  position: relative;
+  overflow: hidden;
+}
+
+.email-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: #667eea;
+  transition: width 0.3s ease;
+}
+
+.email-item:hover::before {
+  width: 8px;
+}
+
+.email-item strong {
+  color: #1f2937;
+  font-size: 1.1rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.email-item span {
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+
