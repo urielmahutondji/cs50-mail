@@ -51,7 +51,7 @@ L’objectif est de concevoir un **client de messagerie monopage**, permettant d
 ### 1. Cloner le projet
 ```bash
 git clone https://github.com/urielmahutondji/cs50-mail.git
-cd mail
+cd cs50-mail
 ````
 
 ### 2. Créer et activer un environnement virtuel
